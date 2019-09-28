@@ -3,6 +3,7 @@ class Book{
 	private String name;
 	public setbookId(int bookId){
 		this.bookId=bookId;
+		System.out.println("bookId is set");
 	}
 	public getbookId(){
 		return bookId;
